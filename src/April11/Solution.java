@@ -60,6 +60,28 @@ class Solution {
         return result;
     }
 
+    public String longestCommonPrefix(String[] strs) {
+        String result=strs[0];
+        int m=0;
+        for(int i=1;i<strs.length;i++){
+            if(strs[i].charAt(0)!=strs[i-1].charAt(0))
+                return "";
+            else{
+                for( m=1;m<strs[i].length();i++){
+                    try{
+                        if (strs[i].charAt(m)!=strs[i+1].charAt(m)){
+                            return "";
+                        }}
+                    catch(Exception e){
+                        return strs[0].substring(0,m-1);
+                    }
+                }
+
+            }
+
+        }
+        return strs[0].substring(0,m);
+    }
 
     public static void main(String[] args){
         Solution mySolution =new Solution();
