@@ -58,6 +58,8 @@ class Solution {
         }
     }
 
+
+
     public static void main(String[] args){
         Solution mySolution =new Solution();
         System.out.println(mySolution.isPalindrome(123454321));
