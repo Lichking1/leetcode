@@ -8,3 +8,12 @@ Algo to be researched
 T142 solution 2 floyd algo, to be researched
 Follow-up:
 Can you solve it without using extra space?
+
+
+
+1 -> 2    5
+
+^    ^
+|	 |
+
+1    3 -> 7
